@@ -4,20 +4,18 @@ var bells = [
 	{"time_begin":480,"time_end":520,"type":1},
 	{"time_begin":520,"time_end":530,"type":0},
 	{"time_begin":530,"time_end":570,"type":2},
-	{"time_begin":570,"time_end":585,"type":0},
-	{"time_begin":585,"time_end":625,"type":3},
-	{"time_begin":625,"time_end":640,"type":0},
-	{"time_begin":640,"time_end":680,"type":4},
-	{"time_begin":680,"time_end":700,"type":0},
-	{"time_begin":700,"time_end":740,"type":5},
-	{"time_begin":740,"time_end":760,"type":0},
+	{"time_begin":570,"time_end":580,"type":0},
+	{"time_begin":580,"time_end":620,"type":3},
+	{"time_begin":620,"time_end":630,"type":0},
+	{"time_begin":630,"time_end":670,"type":4},
+	{"time_begin":670,"time_end":710,"type":0},
+	{"time_begin":710,"time_end":750,"type":5},
+	{"time_begin":750,"time_end":760,"type":0},
 	{"time_begin":760,"time_end":800,"type":6},
 	{"time_begin":800,"time_end":810,"type":0},
 	{"time_begin":810,"time_end":850,"type":7},
 	{"time_begin":850,"time_end":860,"type":0},
-	{"time_begin":860,"time_end":900,"type":8},
-	{"time_begin":900,"time_end":910,"type":0},
-	{"time_begin":910,"time_end":950,"type":9}
+	{"time_begin":860,"time_end":900,"type":8}
 ];
 
 var housing = document.location.hash === "" ? 1 : document.location.hash.slice(1);
