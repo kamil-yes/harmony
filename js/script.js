@@ -18,12 +18,6 @@ var bells = [
 	{"time_begin":860,"time_end":900,"type":8}
 ];
 
-var housing = document.location.hash === "" ? 1 : document.location.hash.slice(1);
-	
-$.getJSON('https://cdn.school97.ru/api/bells/list?housing=' + housing, function(data) {
-	bells = data;
-});
-
 moment.relativeTimeThreshold('ss', 3);
 moment.relativeTimeThreshold('s', 40);
 moment.relativeTimeThreshold('m', 60);
